@@ -1,0 +1,55 @@
+//通用配置
+@import './normalize.less';
+//图标配置
+@import './icon.less';
+
+
+
+.ami_breadcrumb {
+  padding: 24px;
+
+  .router-link-active {
+    font-size: 16px;
+  }
+
+  .router-link-exact-active {
+    font-weight: bold;
+    color: #333 !important;
+  }
+}
+
+
+//重写ant tabs 大小
+.ami_tabs {
+  .ant-tabs-bar {
+    padding: 0 24px;
+    margin: 0;
+  }
+
+  // .ant-tabs-bar {
+  //   margin: 0;
+  // }
+
+  .ant-tabs-tab {
+    margin-right: 36px;
+    padding: 12px 0;
+  }
+}
+
+//ant botton按钮组合间距
+.ami_button_combined {
+  .ant-btn {
+    margin-right: 8px;
+  }
+}
+
+
+// ant table设置默认样式
+.ami_page_table {
+  padding: 0 24px;
+
+}
+
+.ant-table-tbody>tr>td {
+  vertical-align: top;
+}
